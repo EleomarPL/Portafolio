@@ -6,11 +6,11 @@
 <p>Captura de la página vista en una computadora, en el navegador Chrome</p>
 <img src="https://user-images.githubusercontent.com/69527151/96198345-2e94c480-0f1a-11eb-84a5-acaba0a8e45d.png" style="margin: auto;" />
 <p>Captura de la primera sección de la página, vista en una computadora, en el navegador Chrome<p>
-<img src="https://user-images.githubusercontent.com/69527151/96198415-613ebd00-0f1a-11eb-9cf3-c2376204f4fb.png" style="margin: auto;" />
+<img src="https://user-images.githubusercontent.com/69527151/96199896-29d20f80-0f1e-11eb-95bd-fe9da903ea21.png" style="margin: auto;" />
 <p>Captura de la primera sección de la página, vista en menos de 900px de ancho, en el navegador Chrome<p>
-<img src="https://user-images.githubusercontent.com/69527151/96198488-96e3a600-0f1a-11eb-8480-3da03ffa746a.png" style="margin: auto;" />
+<img src="https://user-images.githubusercontent.com/69527151/96199918-3c4c4900-0f1e-11eb-91de-86e67677a563.png" style="margin: auto;" />
 <p>Captura de la primera sección de la página, vista en menos de 600px de ancho, en el navegador Chrome<p>
-<img src="https://user-images.githubusercontent.com/69527151/96198514-aa8f0c80-0f1a-11eb-9589-e5b1b0886219.png" style="margin: auto;" />
+<img src="https://user-images.githubusercontent.com/69527151/96199932-4a9a6500-0f1e-11eb-89ac-c543d45175e5.png" style="margin: auto;" />
 
 <h3>Firefox</h3>
 <p>Captura de la página vista en una computadora, en el navegador Firefox<p>
