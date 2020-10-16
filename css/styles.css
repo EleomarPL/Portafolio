@@ -3,43 +3,33 @@
     padding:0;
     box-sizing: border-box;
 }
-:root{
-    --gold1:#F4BD76;
-    --gold2:#F6CD8F;
-    --gray:#ffffff80;
-    --gray2:#f7d9d990;
-    --black1: #1A1B1F;
-    --black2: #30353B;
-    --shadow: 0 8px 8px;
-    --color_shadow: #00000033;
-}
 /*header*/
 .headBoard{
     width: 100%;
-  height:100vh;
-  background:  url("../img/presentacion.jpg");
-  background-attachment: fixed;
-  background-position: center;
+    height:100vh;
+    background:  url("../img/presentacion.jpg");
+    background-attachment: fixed;
+    background-position: center;
     background-size: cover;
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 nav{
     width: 100%;
     position: fixed;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.5)
 }
-/*Container nav*/
+/*Container nav background*/
 .nav-page{
     background: linear-gradient(to bottom,
-    hsla(0, 0%, 11%, 0.877),
-    rgba(18, 19, 19, 0.877),
-    rgba(10, 10, 10, 0.877)
+        hsla(0, 0%, 11%),
+        rgba(18, 19, 19),
+        rgba(10, 10, 10)
     ) ;
-    height: 80px;
+    height: 10vh;
     color:#fff;
 }
 /*Container in nav*/
-.contenedor{
+.container{
     display: flex;
     margin: auto;
     width: 100%;
@@ -51,12 +41,11 @@ nav{
 }
 nav .navigation a{
     display: inline-block;
-    padding: 5px 0;
-    margin-right: 17px;
-    font-size: 20px;
+    margin-right: 2vw;
+    font-size: 1.6vw;
     font-weight: 300;
     text-decoration: none;
-    border-bottom: 3px solid transparent;
+    border-bottom: 3px solid transparent; 
     color: inherit;
   }
   
@@ -65,7 +54,7 @@ nav .navigation a:hover{
     transition: 0.6s;
 }
 .logo, .logo img{ 
-    font-size: 30px;
+    font-size: 2.7vw;
 }
 .text{
     width: 100%;
@@ -81,17 +70,17 @@ nav .navigation a:hover{
 }
 .text-container{
     background-color: #ebebeb;
-    border: 5px solid #000000;
+    border: 2px solid #000000;
     border-radius: 40px;
-    padding: 30px 0 30px 0;
+    padding: 30px 0;
 }
 .text h1{
-    font-size: 40px;
-    margin: 20px;
+    font-size: 3.5vw;
+    margin: 4vh;
 }
 .text h2{
-    font-size: 25px;
-    margin: 20px;
+    font-size: 2.5vw;
+    margin: 2vh;
 }
 
 /*Secciones*/
@@ -106,80 +95,104 @@ nav .navigation a:hover{
 
 h3{
     display: block;
-    font-size: 33px;
+    font-size: 28px;
     color: #000000;
     border-bottom: solid 5px #F4BD76;
     margin-bottom: 20px;
 }
-  .card{
+.card{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-  
- .knowledge .card .content-card{
+}
+.knowledge .card .content-card{
     width: 41%;
     box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
     overflow: hidden;
-    height:300px;
-
-    margin-bottom: 20px;
-  }
-  .subtitle{
+    height:385px;
+    margin-bottom: 10px;
+}
+.subtitle{
     margin: auto;
     width: 50%;
     border-bottom: solid 5px #989cdb;
-    font-size: 30px;
+    font-size: 25px;
     height: 20%;
-  }
-  .knowledge .card .content-card .image{
-      margin-top: 30px;
+}
+.knowledge .card .content-card .image{
+    margin-top: 20px;
     height: 30%;
-  }
+}
   
-  .knowledge .card .content-card .image img{
+.knowledge .card .content-card .image img{
     width: 100%;
     height: 100%;
     object-fit: contain;
-  }
+}
   
-  .knowledge .card .content-card .text-description{
+.knowledge .card .content-card .text-description{
     height: 50%;
-    width: 100%;
-    padding: 20px 0;
+    width: 95%;
+    padding: 20px 10px 20px 0;
+    margin-left: 20px;
     text-align: justify;
-  }
-  .knowledge .card .content-card .text-description ul li{
+    text-indent: 10px;
+    line-height: 25px;
+}
+.knowledge .card .content-card .text-description ul li{
     text-indent: 20px;
-  }
+}
+.correction-colums{
+    margin-left: 10px;
+    text-indent: 10px;
+    column-count: 2;
+    text-align: justify;
+}
   /*Sobre mi*/
-  .about-me{
+.about-me{
     margin: auto;
     padding: 60px 0;
     width: 90%;
-    height: 800px;
+    height: 100%;
     text-align: center;
     overflow: hidden;
 }
 .container-about-me{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-
 }
 .img-me{
     width: 50%;
     height: 100%;
+    margin: auto;
 }
 .img-me img{
     object-fit: contain;
     width: 100%;
     height: 100%;
+    border-radius: 100px;
 }
 .description-me{
     margin: auto;
     width: 45%;
     text-align: justify;
+    text-indent: 10px;
+    line-height: 30px;
+}
+.description-me p{
+    font-size: 22px;
+    
+}
+.description-me a{
+    font-size: 23px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 3px solid transparent; 
+    color: inherit;
+}
+.description-me a:hover{
+    text-decoration: underline;
 }
 /*Projects*/
 .project{
@@ -209,7 +222,7 @@ h3{
 .project .card .content-card .text-description{
     width: 100%;
     height: 40%;
-    font-size: 30px;
+    font-size: 20px;
 }
 .project .card .content-card .text-description .description{
     padding-right: 0px;
@@ -217,17 +230,18 @@ h3{
     padding-bottom: 10px;
 }
 .project .card .content-card .text-description .link-project{
-    width: 30%;
+    width: 90%;
     margin: auto;
     text-align: center;
     display: block;
     padding: 5px 0;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
     text-decoration: none;
     border-bottom: 3px solid transparent;
 }
 .project .card .content-card .text-description a{
+    width: auto;
     background-color: #000000e0;
     color: #fff;
 }
@@ -249,7 +263,7 @@ h3{
     flex-wrap: wrap;
 }
 .container-social-red a{
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     text-decoration: none;
 }
@@ -274,9 +288,11 @@ h3{
 }
 .about .container-about .about-contac{
     margin-top: 20px;
+    width: 100%;
 }
-.about .container-about .about-contac span{
-    width: 50%;
-    margin: 0 150px 0 130px;
-    font-size: 20px;
+.about .container-about .about-contac i{
+    width: 40%;
+    margin-top: 2vh;
+    font-size: 25px;
 }
+
